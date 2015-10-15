@@ -27,8 +27,6 @@ import java.util.stream.Collectors;
 @RequestMapping(value = "/catalog/")
 public class SearchSuggestionController {
 
-    private static final Logger LOG = LoggerFactory.getLogger(SearchSuggestionController.class);
-
     private final ISearchSuggestionService searchSuggestionService;
 
     @Autowired

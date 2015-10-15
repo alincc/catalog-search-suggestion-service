@@ -20,7 +20,9 @@ public class Suggestion {
         this.name = name;
     }
 
-    public String getSearchUrl() { return searchUrl; }
+    public String getSearchUrl() {
+        return searchUrl;
+    }
 
     public String getImageUrl() {
         return imageUrl;
