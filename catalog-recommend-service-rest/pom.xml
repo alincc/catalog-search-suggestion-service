@@ -16,7 +16,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <start-class>no.nb.microservices.Application</start-class>
+        <start-class>no.nb.microservices.catalogrecommend.Application</start-class>
         <docker.image.prefix>nb</docker.image.prefix>
     </properties>
 
