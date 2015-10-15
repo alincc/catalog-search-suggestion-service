@@ -4,12 +4,9 @@ import com.wordnik.swagger.annotations.Api;
 import com.wordnik.swagger.annotations.ApiOperation;
 import com.wordnik.swagger.annotations.ApiResponse;
 import com.wordnik.swagger.annotations.ApiResponses;
-
-import no.nb.microservices.catalogrecommend.rest.model.SearchSuggestionResource;
 import no.nb.microservices.catalogrecommend.core.searchsuggestions.model.Suggestion;
 import no.nb.microservices.catalogrecommend.core.searchsuggestions.service.ISearchSuggestionService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import no.nb.microservices.catalogrecommend.rest.model.SearchSuggestionResource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

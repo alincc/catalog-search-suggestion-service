@@ -1,0 +1,121 @@
+{
+  "statsmaktene": [
+    {
+      "searchUrl": "/nb/c7a8d01e5d0b9ee8c801217148eb97b5",
+      "imageUrl": "slik_styres_norge.jpg",
+      "name": "Slik styres Norge"
+    },
+    {
+      "searchUrl": "/nb/6dea8d6244db10b7ac93e472b41591e4",
+      "imageUrl": "Statsforvaltningen_i_Norge.jpg",
+      "name": "Statsforvaltningen"
+    },
+    {
+      "searchUrl": "/nb/fb56de244a2b383f3f0c45fbac10d936",
+      "imageUrl": "Norsk_statsforfatningsrett.jpg",
+      "name": "Norsk statsforfatningsrett"
+    },
+    {
+      "searchUrl": "/nb/a232b27d5b85fc28cbb606cc4a1bfad9",
+      "imageUrl": "Valglovgivningen.jpg",
+      "name": "Valglovgivningen"
+    }
+  ],
+  "nbdigital": [
+    {
+      "searchUrl": "/search?searchString=creator:%22Zwilgmeyer, Dikken%22&action=search&mediatype=bøker&view=listView",
+      "imageUrl": "zwilgmeyer.gif",
+      "name": "Dikken Zwilgmeyer"
+    },
+    {
+      "searchUrl": "/search?searchString=creator:%22Ibsen, Henrik%22&action=search&mediatype=bøker&view=listView",
+      "imageUrl": "Ibsen.gif",
+      "name": "Henrik Ibsen"
+    },
+    {
+      "searchUrl": "/search?searchString=creator:%22Kinck, Hans%20e.%22&action=search&mediatype=bøker&view=listView",
+      "imageUrl": "Kinck.gif",
+      "name": "Hans E. Kinck"
+    },
+    {
+      "searchUrl": "/search?searchString=creator:%22Hamsun, Knut%22&mediatype=bøker",
+      "imageUrl": "Hamsun.gif",
+      "name": "Knut Hamsun"
+    },
+    {
+      "searchUrl": "/search?searchString=creator:%22Jølsen, Ragnhild%22&action=search&mediatype=bøker&view=listView",
+      "imageUrl": "ragnhild.gif",
+      "name": "Ragnhild Jølsen"
+    },
+    {
+      "searchUrl": "/search?searchString=creator:%22Stien, Laila%22&action=search&mediatype=bøker&view=listView",
+      "imageUrl": "Stien.gif",
+      "name": "Laila Stien"
+    },
+    {
+      "searchUrl": "/search?searchString=creator:%22Askildsen, Kjell%22&action=search&mediatype=bøker&view=listView",
+      "imageUrl": "Askildsen.gif",
+      "name": "Kjell Askildsen"
+    },
+    {
+      "searchUrl": "/search?searchString=creator:%22Undset, Sigrid%22&action=search&mediatype=bøker&view=listView",
+      "imageUrl": "Undset.gif",
+      "name": "Sigrid Undset"
+    },
+    {
+      "searchUrl": "/search?searchString=creator:%22Fridtjof, Nansen%22&mediatype=bilder",
+      "imageUrl": "Nansen.gif",
+      "name": "Fridtjof Nansen"
+    },
+    {
+      "searchUrl": "/search?searchString=creator:%22Loe, Erlend%22&action=search&mediatype=bøker&view=listView",
+      "imageUrl": "Kurt.gif",
+      "name": "Erlend Loe"
+    },
+    {
+      "searchUrl": "/search?searchString=creator:%22Riverton, Stein%22&action=search&mediatype=bøker&view=listView",
+      "imageUrl": "riverton.gif",
+      "name": "Stein Riverton"
+    },
+    {
+      "searchUrl": "/search?searchString=creator:%22frich,Øvre%20richter%22&action=search&mediatype=bøker&view=listView",
+      "imageUrl": "Richter-Frich.gif",
+      "name": "Øvre Richter Frich"
+    },
+    {
+      "searchUrl": "/search?searchString=creator:%22Dixon,Franklin%20W.%22&action=search&mediatype=bøker&view=listView",
+      "imageUrl": "Hardyguttene.gif",
+      "name": "Hardy-guttene"
+    },
+    {
+      "searchUrl": "/search?searchString=creator:%22Keene,carolyn%22&action=search&mediatype=bøker&view=listView",
+      "imageUrl": "Nancy-Drew.gif",
+      "name": "Frøken Detektiv"
+    },
+    {
+      "searchUrl": "/search?searchString=subjecttopic:%22kokebøker%22&action=search&mediatype=bøker&view=listView",
+      "imageUrl": "Kokebok.gif",
+      "name": "Kokebøker"
+    },
+    {
+      "searchUrl": "/search?searchString=subjecttopic:%22strikking%22&action=search&mediatype=bøker&view=listView",
+      "imageUrl": "strikking.gif",
+      "name": "Strikking"
+    },
+    {
+      "searchUrl": "/search?searchString=subjecttopic:%22fluefiske%22&action=search&mediatype=bøker&view=listView",
+      "imageUrl": "fluefiske.gif",
+      "name": "Fluefiske"
+    },
+    {
+      "searchUrl": "/search?searchString=subjecttopic:%22fjellklatring%22&action=search&mediatype=bøker&view=listView",
+      "imageUrl": "fjellklatring.gif",
+      "name": "Fjellklatring"
+    },
+    {
+      "searchUrl": "/search?searchString=subjecttopic:%22krim%22&action=search&mediatype=bøker&view=listView",
+      "imageUrl": "krim.gif",
+      "name": "Krim"
+    }
+  ]
+}

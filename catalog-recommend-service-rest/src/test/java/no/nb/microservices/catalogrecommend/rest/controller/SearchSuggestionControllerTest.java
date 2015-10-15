@@ -39,4 +39,13 @@ public class SearchSuggestionControllerTest {
 
         assertThat(response.getBody(), hasSize(2));
     }
+
+    @Test
+    public void getSuggestionsForSiteWithoutSuggestions() throws Exception {
+        when(searchSuggestionService.getSuggestions(CURRENT_SITE)).thenReturn(null);
+
+        ResponseEntity<List<SearchSuggestionResource>> response = searchSuggestionController.getSuggestions(CURRENT_SITE);
+
+        assertThat(response.getBody(), hasSize(0));
+    }
 }

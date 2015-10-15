@@ -43,7 +43,8 @@ public class SearchSuggestionRepository implements ISearchSuggestionRepository {
         String json = new String(Files.readAllBytes(Paths.get(file.toURI())));
 
         ObjectMapper objectMapper = new ObjectMapper();
-        TypeReference<HashMap<String,List<Suggestion>>> typeRef = new TypeReference<HashMap<String, List<Suggestion>>>() {};
+        TypeReference<HashMap<String,List<Suggestion>>> typeRef = new TypeReference<HashMap<String, List<Suggestion>>>() {
+        };
         suggestions = objectMapper.readValue(json, typeRef);
     }
 
