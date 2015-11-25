@@ -10,7 +10,7 @@ endpoints:
     enabled: true
 
 server:
-  port: 8080
+  port: 9012
 
 spring:  
 
@@ -24,6 +24,9 @@ eureka:
 ---
 spring:
     profiles: docker
+
+server:
+  port: 8080
 
 eureka:
   instance:
