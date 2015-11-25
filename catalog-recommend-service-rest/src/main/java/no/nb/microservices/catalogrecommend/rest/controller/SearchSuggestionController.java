@@ -22,8 +22,8 @@ import no.nb.microservices.catalogrecommend.core.searchsuggestions.service.ISear
 import no.nb.microservices.catalogrecommend.rest.model.SearchSuggestionResource;
 
 @RestController
-@Api(value = "/catalog/", description = "Home api")
-@RequestMapping(value = "/catalog/recommend/")
+@Api(value = "/v1/catalog/", description = "Home api")
+@RequestMapping(value = "/v1/catalog/recommend/")
 public class SearchSuggestionController {
 
     private final ISearchSuggestionService searchSuggestionService;
