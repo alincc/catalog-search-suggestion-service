@@ -22,8 +22,7 @@ import no.nb.microservices.catalogrecommend.core.searchsuggestions.service.ISear
 import no.nb.microservices.catalogrecommend.rest.model.SearchSuggestionResource;
 
 @RestController
-@Api(value = "/v1/catalog/", description = "Home api")
-@RequestMapping(value = "/v1/catalog/recommend/")
+@RequestMapping(value = "/v1/catalog/searchsuggestions")
 public class SearchSuggestionController {
 
     private final ISearchSuggestionService searchSuggestionService;
@@ -33,9 +32,7 @@ public class SearchSuggestionController {
         this.searchSuggestionService = searchSuggestionService;
     }
 
-    @ApiOperation(value = "Hello World", notes = "Hello World notes", response = String.class)
-    @ApiResponses(value = { @ApiResponse(code = 200, message = "Successful response") })
-    @RequestMapping(value = "/suggestions", method = RequestMethod.GET)
+    @RequestMapping(value = "/default", method = RequestMethod.GET)
     public ResponseEntity<List<SearchSuggestionResource>> getSuggestions(
             @RequestParam(value = "site", defaultValue="nbdigital") String site) {
         List<Suggestion> suggestions = searchSuggestionService.getSuggestions(site);

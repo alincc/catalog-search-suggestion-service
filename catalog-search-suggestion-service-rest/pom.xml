@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>catalog-recommend-service-rest</artifactId>
+    <artifactId>catalog-search-suggestion-service-rest</artifactId>
     <packaging>jar</packaging>
-    <name>catalog-recommend-service-rest</name>
+    <name>catalog-search-suggestion-service-rest</name>
 
     <parent>
         <groupId>no.nb.microservices</groupId>
-        <artifactId>catalog-recommend-service</artifactId>
+        <artifactId>catalog-search-suggestion-service</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 

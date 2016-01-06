@@ -7,7 +7,7 @@
     </parent>
 
     <groupId>no.nb.microservices</groupId>
-    <artifactId>catalog-recommend-service</artifactId>
+    <artifactId>catalog-search-suggestion-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>Service to give recommendations to users</description>
@@ -34,9 +34,9 @@
     </dependencyManagement>
 
     <modules>
-        <module>catalog-recommend-service-model</module>
-        <module>catalog-recommend-service-rest</module>
-        <module>catalog-recommend-service-it</module>
+        <module>catalog-search-suggestion-service-model</module>
+        <module>catalog-search-suggestion-service-rest</module>
+        <module>catalog-search-suggestion-service-it</module>
     </modules>
     
     <scm>

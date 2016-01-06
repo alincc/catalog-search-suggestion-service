@@ -6,10 +6,10 @@
 
     <parent>
         <groupId>no.nb.microservices</groupId>
-        <artifactId>catalog-recommend-service</artifactId>
+        <artifactId>catalog-search-suggestion-service</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>catalog-recommend-service-model</artifactId>
+    <artifactId>catalog-search-suggestion-service-model</artifactId>
 
     <dependencies>
         <dependency>

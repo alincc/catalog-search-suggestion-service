@@ -88,9 +88,9 @@ Desktop.ini
 /data/**
 /spring_loaded/**
 /deploy/**
-/catalog-recommend-service-model/target
-/catalog-recommend-service-rest/target
-
+/catalog-search-suggestion-service-model/target
+/catalog-search-suggestion-service-rest/target
+/catalog-search-suggestion-service-it/target
 ######################
 # Logs
 ######################
