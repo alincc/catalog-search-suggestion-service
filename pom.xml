@@ -40,9 +40,9 @@
     </modules>
     
     <scm>
-        <url>https://github.com/NationalLibraryOfNorway/catalog-recommend-service.git</url>
-        <connection>scm:git:git://github.com/NationalLibraryOfNorway/catalog-recommend-service.git</connection>
-        <developerConnection>scm:git:git@github.com:NationalLibraryOfNorway/catalog-recommend-service.git</developerConnection>
+        <url>https://github.com/NationalLibraryOfNorway/catalog-search-suggestion-service.git</url>
+        <connection>scm:git:git://github.com/NationalLibraryOfNorway/catalog-search-suggestion-service.git</connection>
+        <developerConnection>scm:git:git@github.com:NationalLibraryOfNorway/catalog-search-suggestion-service.git</developerConnection>
     </scm>
 
     <distributionManagement>
