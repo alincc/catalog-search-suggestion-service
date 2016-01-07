@@ -80,7 +80,7 @@
         </dependency>  
         <dependency>
             <groupId>no.nb.microservices</groupId>
-            <artifactId>catalog-recommend-service-model</artifactId>
+            <artifactId>catalog-search-suggestion-service-model</artifactId>
             <version>${project.version}</version>
         </dependency>
 
