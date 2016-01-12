@@ -115,7 +115,7 @@
     </dependencies>
 
     <build>
-        <finalName>catalog-recommend-service</finalName>
+        <finalName>catalog-search-suggestion-service</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
