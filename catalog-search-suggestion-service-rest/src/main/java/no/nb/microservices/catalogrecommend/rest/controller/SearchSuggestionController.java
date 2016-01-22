@@ -22,7 +22,7 @@ import no.nb.microservices.catalogrecommend.core.searchsuggestions.service.ISear
 import no.nb.microservices.catalogrecommend.rest.model.SearchSuggestionResource;
 
 @RestController
-@RequestMapping(value = "/v1/catalog/searchsuggestions")
+@RequestMapping(value = "/catalog/v1/searchsuggestions")
 public class SearchSuggestionController {
 
     private final ISearchSuggestionService searchSuggestionService;

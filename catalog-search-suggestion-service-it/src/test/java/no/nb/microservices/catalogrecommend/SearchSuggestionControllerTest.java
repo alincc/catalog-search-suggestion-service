@@ -37,7 +37,7 @@ public class SearchSuggestionControllerTest {
 
     @Test
     public void getSuggestionsForNbDigital() {
-        String url = "http://localhost:" + port + "/v1/catalog/searchsuggestions/default";
+        String url = "http://localhost:" + port + "/catalog/v1/searchsuggestions/default";
         ResponseEntity<List<SearchSuggestionResource>> responseEntity = getResponse(url);
 
         assertThat(responseEntity.getBody(), hasSize(19));
@@ -45,7 +45,7 @@ public class SearchSuggestionControllerTest {
 
     @Test
     public void getSuggestionsForStatsmaktene() {
-        String url = "http://localhost:" + port + "/v1/catalog/searchsuggestions/default?site=statsmaktene";
+        String url = "http://localhost:" + port + "/catalog/v1/searchsuggestions/default?site=statsmaktene";
         ResponseEntity<List<SearchSuggestionResource>> responseEntity = getResponse(url);
 
         assertThat(responseEntity.getBody(), hasSize(4));
@@ -53,7 +53,7 @@ public class SearchSuggestionControllerTest {
 
     @Test
     public void getSuggestionsForSiteWithoutSuggestions() {
-        String url = "http://localhost:" + port + "/v1/catalog/searchsuggestions/default?site=site";
+        String url = "http://localhost:" + port + "/catalog/v1/searchsuggestions/default?site=site";
         ResponseEntity<List<SearchSuggestionResource>> responseEntity = getResponse(url);
 
         assertThat(responseEntity.getBody(), hasSize(0));
