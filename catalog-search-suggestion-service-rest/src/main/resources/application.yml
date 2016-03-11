@@ -4,5 +4,5 @@ info:
     description: Service to give recommendations to users
 
 server:
-  port: 0
+  port: 8017
 
