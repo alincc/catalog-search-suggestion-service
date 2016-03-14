@@ -1,6 +1,6 @@
 spring:
   application:
-    name: catalog-recommend-service
+    name: catalog-search-suggestion-service
   cloud:
     config:
       failFast: false
