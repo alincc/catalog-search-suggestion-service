@@ -1,8 +1,20 @@
 info:
-  app:
-    name: catalog-search-suggestion-service
-    description: Service to give search recommendations to users
+    app:
+        name: catalog-search-suggestion-service
+        description: Service to give search recommendations to users
+    build:
+        artifact: ${project.artifactId}
+        name: ${project.name}
+        description: ${project.description}
+        version: ${project.version}
 
 server:
-  port: 8017
+    port: 8017
 
+zipkin:
+    collector-hostname: localhost
+    
+monitoring:
+    hostname: localhost
+    port: 2003
+    period: 1
